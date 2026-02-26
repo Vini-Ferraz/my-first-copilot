@@ -17,24 +17,6 @@ O Copiloto lê o contexto do projeto (arquivos abertos, seleção, etc.) e respo
 
 ---
 
-# ✏️ Edit
-O modo **Edit** serve para **alterar código existente**. Você seleciona um trecho (ou um arquivo inteiro), descreve o que quer mudar, e o Copiloto aplica a modificação diretamente.
-
-Ideal para:
-- refactors
-- ajustes de lógica
-- melhoria de performance
-- mudança de estilo
-- conversão de linguagem
-- adicionar logs
-- tratar erros
-
-Aqui o foco é: **“pegue isso que já existe e transforme”**.
-
-📄 **Prompt:** [prompts/prompt-edit.md](prompts/prompt-edit.md)
-
----
-
 # 🧭 Plan
 Quando você pede algo mais complexo, o Copiloto pode entrar em um modo de **planejamento**, onde ele **pensa e descreve os passos antes de sair codando**.
 
@@ -93,7 +75,6 @@ O Copiloto analisa:
 # 🧠 Resumo mental rápido
 - **Ask** → entender  
 - **Plan** → planejar antes de agir  
-- **Edit** → mudar código  
 - **Agent** → executar tarefas grandes sozinho  
 - **Study** → aprendizado ativo  
 - **Review** → avaliar código com olhar crítico
