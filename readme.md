@@ -1,10 +1,10 @@
-# 🧩 Modos do Copiloto (Ask, Edit, Plan, Agent e Study)
+# 🧩 Modos do Copiloto (Ask, Edit, Plan, Agent, Study e Review)
 
 ![dio/me](https://img.shields.io/badge/dio-me-ff2d55)
 ![IA](https://img.shields.io/badge/IA-Assistente%20Inteligente-blue)
 ![Prompt](https://img.shields.io/badge/Prompt-engineering-yellow)
 
-O Copiloto oferece diferentes **modos de interação** para você escolher como quer trabalhar: desde **tirar dúvidas sem mexer no código**, até **editar trechos específicos**, **planejar mudanças maiores** ou **delegar tarefas mais complexas** com um modo mais autônomo. A ideia é simples: você seleciona o modo que melhor combina com seu objetivo no momento e ganha velocidade com mais controle.
+O Copiloto oferece diferentes **modos de interação** para você escolher como quer trabalhar: desde **tirar dúvidas sem mexer no código**, até **editar trechos específicos**, **planejar mudanças maiores**, **delegar tarefas mais complexas** ou **avaliar código com um olhar crítico**. A ideia é simples: você seleciona o modo que melhor combina com seu objetivo no momento e ganha velocidade com mais controle.
 
 ---
 
@@ -73,9 +73,27 @@ Funciona quase como um **tutor particular**.
 
 ---
 
+# 🧐 Review
+O modo **Review** serve para **avaliar código existente com um olhar crítico**, como um tech lead experiente.  
+Ele **não altera nada automaticamente**, mas ajuda você a identificar melhorias, riscos e boas práticas.
+
+O Copiloto analisa:
+- Correção funcional
+- Legibilidade e clareza
+- Arquitetura e organização
+- Performance
+- Segurança
+- Testabilidade
+- Manutenibilidade
+
+📄 **Prompt:** [prompts/prompt-review.md](prompts/prompt-review.md)
+
+---
+
 # 🧠 Resumo mental rápido
 - **Ask** → entender  
 - **Plan** → planejar antes de agir  
 - **Edit** → mudar código  
 - **Agent** → executar tarefas grandes sozinho  
-- **Study** → entendimento ativo  
+- **Study** → aprendizado ativo  
+- **Review** → avaliar código com olhar crítico
